@@ -8,6 +8,7 @@ class Song
   @song = song
   @@all << self
   self.name=song
+  self.artist=""
   
 end
 
