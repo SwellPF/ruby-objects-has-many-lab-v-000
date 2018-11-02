@@ -7,6 +7,7 @@ class Song
  # binding.pry
   @song = song
   @@all << self
+  artist.name = ""
   
 end
 
