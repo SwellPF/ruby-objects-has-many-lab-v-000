@@ -5,7 +5,7 @@ class Song
   
   def initialize(song)
  # binding.pry
-  @song = song
+  @name = song
   @@all << self
   self.name=song
   
