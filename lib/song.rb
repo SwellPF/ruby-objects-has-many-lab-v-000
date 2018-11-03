@@ -8,11 +8,11 @@ class Song
   @song = song
   @@all << self
   self.name=song
-  self.artist=""
   
 end
 
   def artist_name
+    binding.pry
     self.artist.name
   end
   
