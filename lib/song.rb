@@ -13,11 +13,7 @@ end
 
   def artist_name
   #  binding.pry
-    if self.artist.name != nil
       self.artist.name
-    else
-      nil
-    end
   end
   
   def self.all
