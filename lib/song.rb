@@ -13,7 +13,7 @@ end
 
   def artist_name
   #  binding.pry
-    self.artist.name
+    song.artist.name
   end
   
   def self.all
