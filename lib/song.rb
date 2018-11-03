@@ -11,7 +11,7 @@ end
 
   def artist_name
  #  binding.pry
-    self.artist.name
+    artist.name
   end
   
   def self.all
