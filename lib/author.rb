@@ -8,9 +8,9 @@ class Author
     @name=name
     @posts=[]
   end
-  
+  binding.pry
   def add_post(post)
-   binding.pry
+  
    @posts << post
     post.author=self
     @@all << post
