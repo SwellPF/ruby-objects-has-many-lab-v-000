@@ -8,7 +8,6 @@ class Post
   end
   
   def author_name
-    def author_name
     author.name if author
   end
   
