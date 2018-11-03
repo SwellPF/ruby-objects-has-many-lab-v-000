@@ -7,7 +7,6 @@ class Song
  # binding.pry
   @name = song
   @@all << self
-  #self.name=song
   
 end
 
