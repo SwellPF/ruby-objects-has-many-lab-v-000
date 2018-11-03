@@ -1,4 +1,5 @@
-binding.pry
+require 'pry'
+
 class Author
   attr_accessor :name, :posts
   @@all=[]
@@ -9,7 +10,8 @@ class Author
   end
   
   def add_post(post)
-    @posts << post
+   binding.pry
+   @posts << post
     post.author=self
     @@all << post
   end
