@@ -8,7 +8,7 @@ class Song
   @song = song
   @@all << self
   self.name=song
-  self.artist.name = nil
+  
 end
 
   def artist_name
