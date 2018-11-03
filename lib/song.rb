@@ -4,13 +4,11 @@ class Song
   @@all=[]
   
   def initialize(name)
- # binding.pry
   @name = name
   @@all << self
-end
+  end
 
   def artist_name
- #  binding.pry
     artist.name if artist
   end
   
