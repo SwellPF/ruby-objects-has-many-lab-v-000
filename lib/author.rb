@@ -1,3 +1,4 @@
+binding.pry
 class Author
   attr_accessor :name, :posts
   @@all=[]
