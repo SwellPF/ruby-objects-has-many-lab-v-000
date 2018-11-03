@@ -7,6 +7,7 @@ class Song
  # binding.pry
   @name = song
   @@all << self
+  @artist = nil
   
 end
 
